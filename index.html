@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>MG Password Vault</title>
+    <meta name="description" content="Coffre-fort de mots de passe sécurisé (offline)" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="icons/icon-192.png" />
+    <!-- Pas de CSS pour ce lot de 5 fichiers (CSP OK). On ajoutera styles/app.css au lot suivant. -->
+  </head>
+  <body>
+    <noscript>Cette application nécessite JavaScript.</noscript>
+
+    <div id="app"></div>
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Entry unique : tout le reste est importé depuis app.js -->
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
